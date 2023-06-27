@@ -1,0 +1,42 @@
+{
+    "frameEnd": "*/",
+    "frameStart": "/*",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 1000,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 50,
+                    "min": -50,
+                    "title": "current speed",
+                    "units": "Pulses",
+                    "value": "%1",
+                    "widget": "gauge"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 50,
+                    "min": -50,
+                    "title": "Error",
+                    "units": "Pulses",
+                    "value": "%2",
+                    "widget": ""
+                }
+            ],
+            "title": "speed",
+            "widget": ""
+        }
+    ],
+    "separator": ",",
+    "title": "Brushed DC Motor Speed"
+}
